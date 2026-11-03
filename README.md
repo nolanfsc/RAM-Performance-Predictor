@@ -1,2 +1,10 @@
-# Outilsfondamentaux
-Dépôt d'outils fondamentaux
+# Description du projet et des données de TP :
+- Le dossier "Solutions_TP_OF" contient les exercices des différentes séances de TP. Je n'ai pas fini tous les TP ni forcément tous les exercices mais une bonne majorité est présente ici.
+
+
+- Pour ce qu'il s'agit du dossier "RAM-Performance-Predicator" le contenu du projet personnel. Le projet consiste à prédire les performances d'une RAM en fonction des spécifications données par l'utilisateur. Pour créer ce programme, j'ai choisi d'intégrer comme référence les données fournies par mes deux configurations personnelles. Etant un passionné de Hardware et d'overclocking en tout genre (CPU, GPU, RAM...) j'ai pensé que créer un modèle en python capable de prédire des performances synthétiques de la RAM serait une bonne idée. On prend pour chacune de mes plateformes 5 benchmarks afin de créer une moyenne de performance et de pouvoir entraîner un modèle qui va essayer de prédire les performances du système en fonction des spécifications de la RAM (cf. latence CAS, tRCD tRP et CR). Les données relevées sont donc la vitesse de lecture, d'écriture, de copie et la latence mémoire. Les données sont stockées dans des fichiers CSV. Pour exécuter le programme, il faut lancer le programme Python "main.py" et choisir sa plateforme puis les spécifications de sa RAM.
+
+
+
+
+Le projet comporte l'utilisation d'une IA notamment pour comprendre comment intégrer les valeurs des benchs réalisés donc dans un fichier CSV et pour rédiger plus rapidement du code. L'idée de créer un module capable de prédire les performances d'une RAM vient de moi-même et de ma passion pour ce sujet. Merci d'avoir pris connaissance de ce fichier, j'espère que ces données vous conviendrons. 
